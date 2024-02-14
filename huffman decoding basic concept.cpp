@@ -120,6 +120,7 @@ int main()
 	//read file
 	//string filePath = "your_file.txt";
 	string filePath;
+	//entering the file path
 	cout<<"Enter the filepath: ";
 	cin>>filePath;
 	ifstream inputFile(filePath);
